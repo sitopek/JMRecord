@@ -44,7 +44,7 @@ class FGMembersite
     
     function InitDB($host,$uname,$pwd,$database,$tablename)
     {
-        $this->db_host  = $host;
+        $this->db_host  = 'tcp:jasamerin-sv.database.windows.net,1433';
         $this->username = $uname;
         $this->pwd  = $pwd;
         $this->database  = $database;
