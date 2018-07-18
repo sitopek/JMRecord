@@ -770,7 +770,7 @@ class FGMembersite
     function DBLogin()
     {
 //new add
-        $this->connection = mysql_connect($this->db_host,$this->username,$this->pwd,"MultipleActiveResultSets"=>true);
+        $this->connection = mysql_connect($this->db_host,$this->username,$this->pwd,"MultipleActiveResultSets"=>false);
 
         if(!$this->connection)
         {   
