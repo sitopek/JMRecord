@@ -14,7 +14,7 @@ $fgmembersite->SetAdminEmail('heckcrack3r@gmail.com');
 //hostname, user name, password, database name and table name
 //note that the script will create the table (for example, fgusers in this case)
 //by itself on submitting register.php for the first time
-$fgmembersite->InitDB(/*hostname*/'tcp:jasamerin-sv.database.windows.net',
+$fgmembersite->InitDB(/*hostname*/'tcp:jasamerin-sv.database.windows.net,1433',
                       /*username*/'shairol',
                       /*password*/'Jasamerin1',
                       /*database name*/'jasamerin-db',
