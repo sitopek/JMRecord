@@ -38,7 +38,7 @@ class FGMembersite
     //-----Initialization -------
     function FGMembersite()
     {
-        $this->sitename = 'YourWebsiteName.com';
+        $this->sitename = 'https://jmleave.azurewebsites.net';
         $this->rand_key = '0iQx5oBk66oVZep';
     }
     
