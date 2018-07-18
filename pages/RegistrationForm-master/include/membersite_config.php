@@ -4,7 +4,7 @@ require_once("./include/fg_membersite.php");
 $fgmembersite = new FGMembersite();
 
 //Provide your site name here
-$fgmembersite->SetWebsiteName('http://172.168.3.6:8080');
+$fgmembersite->SetWebsiteName('https://jmleave.azurewebsites.net');
 
 //Provide the email address where you want to get notifications
 $fgmembersite->SetAdminEmail('heckcrack3r@gmail.com');
